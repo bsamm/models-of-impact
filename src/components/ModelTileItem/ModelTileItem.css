@@ -1,0 +1,10 @@
+.modelTileItem {
+  padding: 4px 0px;
+}
+.modelTileItem:hover {
+  cursor: pointer;
+}
+
+.th-id {
+  width: 42px;
+}

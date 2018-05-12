@@ -1,0 +1,26 @@
+.box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2000;
+}
+
+.round-items {
+  font-size: 13px;
+  font-weight: bold;
+  color: #209cee;
+}
+
+.round-model-type {
+  color: hsl(348, 100%, 61%);
+}
+
+.round-model-number {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.level-item {
+  max-width: 344px;
+}
