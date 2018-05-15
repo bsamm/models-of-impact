@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Columns, Hero, Heading } from 'react-bulma-components/full';
+import ReactGA from 'react-ga';
 
 import './App.css';
 
@@ -8,6 +9,9 @@ import revenuesData from './data/revenues.json';
 
 import ModelTile from './components/ModelTile/ModelTile';
 import RoundController from './components/RoundController/RoundController';
+
+ReactGA.initialize('UA-51847402-9');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   constructor(props) {

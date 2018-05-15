@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Columns } from 'react-bulma-components/full';
+import ReactGA from 'react-ga';
 
 import './ModelTileOtherFactorsForm.css';
 
@@ -27,6 +28,10 @@ class ModelTileOtherFactorsForm extends Component {
   }
 
   handleSubmit(event) {
+    ReactGA.event({
+      category: 'Other Factor',
+      action: 'Someone added an other factor'
+    });
     this.state.addOtherFactorFunction(this.state.value);
     event.preventDefault();
     this.setState({ value: '' });

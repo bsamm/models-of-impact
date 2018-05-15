@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Level, Heading, Box, Button } from 'react-bulma-components/full';
 import renderHTML from 'react-render-html';
+import ReactGA from 'react-ga';
 import _ from 'lodash';
 
 import './RoundController.css';
@@ -55,6 +56,10 @@ class RoundController extends Component {
   }
 
   playRound(round) {
+    ReactGA.event({
+      category: 'Round ' + round,
+      action: 'Someone played a round, round ' + round
+    });
     if (this.state.othersData.length > 0) {
       const randomOFString = this.getValue(round, 'OF');
       const randomIMString = this.getValue(round, 'IM');
