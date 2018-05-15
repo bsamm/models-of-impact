@@ -78,7 +78,7 @@ class App extends Component {
                 MODELS OF IMPACT
               </Heading>
               <Heading subtitle>
-                The business model design game created by <a href="https://www.mattmanos.com/">Matthew Manos</a> at <a href="http://verynice.co/">verynice</a>. <a href="http://www.modelsofimpact.co/">Learn More</a>.
+                The business model design game created by <a href="https://www.mattmanos.com/">Matthew Manos</a> at <a href="http://verynice.co/">verynice</a>. <a href="http://www.modelsofimpact.co/">Learn More and Download the Full Toolkit</a>.
               </Heading>
               <Heading className="is-7">
                 This site was created by Brandon Sammons (<a href="https://github.com/bsamm">@bsamm</a>) under a <a href="https://creativecommons.org/licenses/by-nd/4.0/">Attribution-NoDerivatives 4.0 International</a> license.
