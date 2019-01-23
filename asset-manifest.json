@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.cf74bf85.css",
-  "main.css.map": "static/css/main.cf74bf85.css.map",
-  "main.js": "static/js/main.b0f80e08.js",
-  "main.js.map": "static/js/main.b0f80e08.js.map"
+  "main.css": "/models-of-impact/static/css/main.f479e58c.chunk.css",
+  "main.js": "/models-of-impact/static/js/main.ef6d1e38.chunk.js",
+  "main.js.map": "/models-of-impact/static/js/main.ef6d1e38.chunk.js.map",
+  "static/js/1.80ebbd24.chunk.js": "/models-of-impact/static/js/1.80ebbd24.chunk.js",
+  "static/js/1.80ebbd24.chunk.js.map": "/models-of-impact/static/js/1.80ebbd24.chunk.js.map",
+  "runtime~main.js": "/models-of-impact/static/js/runtime~main.dd84b908.js",
+  "runtime~main.js.map": "/models-of-impact/static/js/runtime~main.dd84b908.js.map",
+  "static/css/main.f479e58c.chunk.css.map": "/models-of-impact/static/css/main.f479e58c.chunk.css.map",
+  "index.html": "/models-of-impact/index.html",
+  "precache-manifest.0a8d99023e3e2b1acbf7879c69af6182.js": "/models-of-impact/precache-manifest.0a8d99023e3e2b1acbf7879c69af6182.js",
+  "service-worker.js": "/models-of-impact/service-worker.js"
 }
