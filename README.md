@@ -20,4 +20,4 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ### Deploy using githib pages
 
 - `npm run deploy` and it will run the build and auto-push to github/gh-pages branch
-- https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom
+- https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom
